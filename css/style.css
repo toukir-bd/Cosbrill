@@ -82,7 +82,7 @@ a:hover,
 
 a,
 button {
-    color: #18232b;
+    color: #1d1a4c;
     outline: medium none;
 }
 
@@ -121,7 +121,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #18232b;
+    color: #1d1a4c;
     margin-top: 0px;
     font-style: normal;
     font-weight: 700;
@@ -175,7 +175,7 @@ p {
     margin-bottom: 15px;
     font-size: 14px;
     font-weight: 500;
-    color: #18232b;
+    color: #1d1a4c;
 }
 
 hr {
@@ -235,7 +235,7 @@ label {
 }
 
 .header-area .call-box {
-    background-color: #f9c158;
+    background-color: #5fc198;
     padding: 8px 0;
 }
 
@@ -253,7 +253,7 @@ label {
 }
 
 .menu-area {
-    background: #18232b;
+    background: #1d1a4c;
     padding: 0;
 }
 
@@ -266,7 +266,7 @@ label {
 }
 
 .menu-area .navbar-brand {
-    margin-right: 30px;
+	margin-right: 50px;
 }
 
 .menu-area .navbar-brand img {
@@ -279,20 +279,21 @@ label {
 }
 
 .menu-area nav ul li a {
-    color: #fff;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: .5px;
-    padding: 0 20px !important;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: .5px;
+	padding: 5px 20px !important;
+	border-radius: 5px;
 }
 
 .menu-area nav ul li a:hover {
-    color: #f9c158;
+    color: #5fc198;
 }
 
 .menu-area nav ul li a.active,
 .menu-area nav ul li a.active:hover {
-    color: #f9c158 !important;
+    background: #5fc198 !important;
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -300,25 +301,20 @@ label {
 }
 
 .menu-area .sign-btn a {
-    width: auto;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
-    padding: 5px 15px !important;
-    margin-left: 10px;
-    color: #18232b;
-    font-weight: 600;
-    text-transform: uppercase;
+	width: auto;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+	padding: 9px 15px !important;
+	margin-left: 10px;
+	color: #1d1a4c;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 14px;
 }
 
 .menu-area .sign-btn a:hover {
-    background: #f9c158;
-}
-
-.menu-area .sign-btn a:first-child {
-    background: transparent;
-    color: #f9c158;
-    font-weight: 600;
+    background: #5fc198;
 }
 
 
@@ -336,11 +332,11 @@ label {
 }
 
 .banner-area .banner-content {
-    max-width: 100%;
-    width: 600px;
-    background: linear-gradient(to right, rgba(24, 35, 43, 0.95), rgba(24, 35, 43, 0.75), transparent);
-    padding: 40px;
-    border-radius: 43px;
+	max-width: 100%;
+	width: 600px;
+	background: linear-gradient(to right, rgba(29, 26, 76, 0.95), rgba(29, 26, 76, 0.75), transparent);
+	padding: 40px;
+	border-radius: 43px;
 }
 
 .banner-area .banner-content h2 {
@@ -353,7 +349,7 @@ label {
 }
 
 .banner-area .banner-content h2 span {
-    color: #f9c158;
+    color: #5fc198;
 }
 
 .banner-area .banner-content h5 {
@@ -366,7 +362,7 @@ label {
 
 .start-btn {
     font-size: 18px;
-    color: #18232b;
+    color: #1d1a4c;
     background: #fff;
     font-weight: 600;
     line-height: 28px;
@@ -379,11 +375,11 @@ label {
 
 .start-btn.btn2 {
     color: #fff;
-    background: #18232b;
+    background: #1d1a4c;
 }
 
 .start-btn span {
-    background: #18232b;
+    background: #1d1a4c;
     border-radius: 60px;
     height: 40px;
     width: 40px;
@@ -399,17 +395,17 @@ label {
 }
 
 .start-btn:hover {
-    background: #F9C158;
-    color: #18232b;
+    background: #5fc198;
+    color: #1d1a4c;
 }
 
 .start-btn.btn2:hover {
-    color: #F9C158;
-    background: #18232b;
+    color: #5fc198;
+    background: #1d1a4c;
 }
 
 .start-btn.btn2:hover span {
-    background: #F9C158;
+    background: #5fc198;
 }
 
 
@@ -421,43 +417,37 @@ label {
 }
 
 .step-area .each-step {
-    width: 180px;
-    max-width: 100%;
-    flex-direction: column;
-    position: relative;
-}
-
-.step-area .each-step::after {
-    position: absolute;
-    content: "\2192";
-    top: 20px;
-    right: -20%;
-    font-size: 37px;
-    color: #18232b;
-}
-
-.step-area .each-step:last-child::after {
-    display: none;
+	width: 270px;
+	max-width: 100%;
+	flex-direction: column;
+	position: relative;
 }
 
 .step-area h2 {
-    font-size: 35px;
+	font-size: 34px;
 }
 
 .step-area span {
-    background: rgba(250, 193, 88, 0.25);
-    height: 100px;
-    width: 120px;
-    border-radius: 28px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
+	background: #f1f4c9;
+	height: 100px;
+	width: 120px;
+	border-radius: 28px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
 }
-
+.step-area h3 {
+	font-size: 20px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    color:#1D1A4C;
+}
 .step-area h4 {
     font-size: 14px;
-    color: #18232b;
+    color: #1d1a4c;
     font-weight: 500;
     line-height: 22px;
     text-transform: capitalize;
@@ -494,7 +484,7 @@ label {
 }
 
 .about-tag .line2 {
-    border: 1px dashed #18232b;
+    border: 1px dashed #1d1a4c;
     margin: 10px;
     border-radius: 50%;
     height: 100px;
@@ -505,7 +495,7 @@ label {
 
 .about-tag span {
     font-size: 18px;
-    color: #18232b;
+    color: #1d1a4c;
     position: relative;
     display: block;
     font-weight: 600;
@@ -518,22 +508,22 @@ label {
     width: 100%;
     border-radius: 40px;
     padding: 40px;
-    background: linear-gradient(to right, #F9C158, transparent);
+    background: linear-gradient(to right, #5fc198, transparent);
 }
 
 .about-text.oposite-text {
-    background: linear-gradient(to left, #F9C158, transparent);
+    background: linear-gradient(to left, #5fc198, transparent);
 }
 
 .about-text p {
     font-size: 14px;
-    color: #18232b;
+    color: #1d1a4c;
     font-weight: 500;
     margin-bottom: 30px;
 }
 
 .head-text h5 {
-    color: #18232b;
+    color: #1d1a4c;
     font-size: 12px;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -544,12 +534,12 @@ label {
 }
 
 .head-text h5::after {
-    color: #18232b;
+    color: #1d1a4c;
     content: "";
     position: absolute;
     width: 40px;
     height: 1px;
-    background: #18232b;
+    background: #1d1a4c;
     left: 0;
     top: 6px;
 }
@@ -570,6 +560,32 @@ label {
     margin-bottom: 15px;
 }
 
+.head-text h4 {
+    font-size: 26px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.services{
+    padding-bottom:0;
+}
+
+.services .about-text p {
+	font-size: 14px;
+	color: #1d1a4c;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.about-area.services ul li{
+    margin: 10px 0;
+    color: #000;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    list-style-type: disclosure-closed;
+}
+
 
 
 /*==========services=======*/
@@ -579,10 +595,10 @@ label {
 }
 
 .service-field {
-    width: 100%;
-    background: #FFF4E0;
-    border-radius: 40px;
-    padding: 50px;
+	width: 100%;
+	background: #F1F4C9;
+	border-radius: 40px;
+	padding: 50px;
 }
 
 .services-area .head-text h5::after {
@@ -595,16 +611,17 @@ label {
 }
 
 .service-box {
-    background: #fff;
-    padding: 12px;
-    border-radius: 22px;
-    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+	background: #fff;
+	padding: 30px;
+	border-radius: 22px;
+	box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+    height: 100%;
 }
 
 .service-box span {
-    display: block;
-    background: #000;
-    border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .service-box span img {
@@ -617,6 +634,14 @@ label {
     color: #555;
 }
 
+.service-box ul li{
+    margin: 10px 0;
+    color: #000;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    list-style-type: disclosure-closed;
+}
 
 /* ============testimonial============= */
 .testimonial-area {
@@ -635,7 +660,7 @@ label {
     height: 6px;
     margin-right: 5px;
     margin-left: 5px;
-    background-color: #18232b;
+    background-color: #1d1a4c;
 }
 
 .testimonial-area .carousel-item {
@@ -653,14 +678,14 @@ label {
     font-size: 17px;
     font-weight: 400;
     font-style: italic;
-    color: #18232b;
+    color: #1d1a4c;
 }
 
 .testimonial-area .single-testimonial img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border: 2px solid #18232b;
+    border: 2px solid #1d1a4c;
 }
 
 .testimonial-area .single-testimonial .te-info {
@@ -670,7 +695,7 @@ label {
 .testimonial-area .single-testimonial .te-info h6 {
     font-size: 20px;
     margin-bottom: 0px;
-    color: #18232b;
+    color: #1d1a4c;
 }
 
 .testimonial-area .single-testimonial .te-info span {
@@ -711,7 +736,7 @@ label {
 .footer-area {
     position: relative;
     padding: 70px 0;
-    background: #18232b;
+    background: #1d1a4c;
 }
 
 .footer-area .footer-info img {
@@ -735,7 +760,7 @@ label {
 .footer-area .footer-info .clink:hover {
     font-size: 15px;
     font-weight: 500;
-    color: #f9c158;
+    color: #5fc198;
 }
 
 .footer-area .footer-info span {
@@ -763,7 +788,7 @@ label {
 }
 
 .footer-area .footer-info ul li a:hover {
-    color: #f9c158;
+    color: #5fc198;
 }
 
 .footer-area .copy-text {
@@ -781,7 +806,7 @@ label {
     right: 30px;
     width: 46px;
     height: 46px;
-    background: #f9c158;
+    background: #5fc198;
     padding: 7px;
     border-radius: 50%;
     display: none;
@@ -907,7 +932,7 @@ label {
 .pricing h1 strong {
     font-size: 16px;
     font-weight: 400;
-    color: #18232b;
+    color: #1d1a4c;
 }
 .pricing ul {
     padding: 15px 0;
@@ -925,7 +950,7 @@ label {
     border-bottom: 0;
 }
 .default-form.stand {
-    background: #F9C158;
+    background: #5fc198;
 }
 .about-page {
     padding-top: 50px;
@@ -953,7 +978,7 @@ label {
 .profile-info h2 {
 	font-size: 20px;
 	font-weight: 600;
-	color: #18232b;
+	color: #1d1a4c;
 	text-align: center;
 	margin-top: 15px;
 }
@@ -974,8 +999,8 @@ label {
     text-align: end;
 }
 .edit-profile button {
-    background: #f9c15852;
-    border: 1px solid #f9c158;
+    background: #5fc19852;
+    border: 1px solid #5fc198;
     border-radius: 5px;
     color: #002c47;
     padding: 5px 8px;
@@ -995,7 +1020,7 @@ label {
 	width: 30%;
 	font-size: 15px;
 	font-weight: 500;
-	color: #18232b;
+	color: #1d1a4c;
 }
 .profile-all-info .icon-title svg {
     margin-right: 10px;
@@ -1025,7 +1050,7 @@ label {
 }
 .others-top-nav .active {
 	border: 0;
-	color: #18232b;
+	color: #1d1a4c;
 	background: #fff;
 	border-radius: 12px;
 }
@@ -1058,7 +1083,7 @@ label {
 .tab-pane .tab-box table tbody tr td{
 	font-size: 13px;
     font-weight: 500;
-    color:#18232B;
+    color:#1d1a4c;
     margin-bottom:0;
     padding:10px 5px;
 }
@@ -1116,7 +1141,7 @@ label {
     padding:0 20px;
 }
 .modal-footer .btn-success{
-    background:#18232B;
+    background:#1d1a4c;
 }
 .modal-close{
     position:absolute;
@@ -1232,7 +1257,7 @@ label {
 .dropdown-menu li a{
 	display:block;
     width:100%;
-    color:#18232B !important;
+    color:#1d1a4c !important;
     font-size:15px;
     font-weight:500 !important;
     text-transform:capitalize !important;
@@ -1262,7 +1287,7 @@ label {
 .loader-3{
     width :48px;
     height:48px;
-    border:3px solid #18232B;
+    border:3px solid #1d1a4c;
     border-radius:50%;
     display:inline-block;
     position:relative;
