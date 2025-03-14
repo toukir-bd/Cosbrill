@@ -32,13 +32,13 @@
     .navbar-toggler span:last-child{
         width:24px;
     }
-    .navbar-collapse{
+    .navbar-collapse {
         position: absolute;
-        background: #131c22;
+        background: #1D1A4C;
         width: 100%;
         left: 0px;
         top: 100%;
-        padding: 50px 0;
+        padding: 35px 15px;
     }
     .menu-area nav ul li a{
         font-size: 20px;
@@ -47,20 +47,20 @@
         padding: 12px 20px !important;
         text-align: center;
     }
-    .navbar-collapse .sign-btn{
+    .navbar-collapse .sign-btn {
         display: flex;
         justify-content: center;
         border-top: 1px solid #000;
         align-content: center;
         padding-top: 20px;
-        margin-top: 35px;
+        margin-top: 20px;
     }
     .menu-area .sign-btn a{
         padding: 10px 25px !important;
     }
-    .menu-area .sign-btn a:first-child{
-        color: #f9c158;
-        border:1px solid #f9c158;
+    .menu-area .sign-btn a:first-child {
+        color: #1D1A4C;
+        border: 0;
     }
     .banner-area .banner-content h2{
         font-size: 28px;
@@ -161,8 +161,9 @@
         padding: 25px 20px;
         background-position: right;
     }
-    .all-steps{
-        flex-direction:column;
+    .all-steps {
+        flex-direction: column;
+        align-items: center !important;
     }
     .all-steps .each-step{
         margin-bottom:30px !important;
@@ -183,11 +184,14 @@
         height: 30px;
         width: 30px;
     }
+    .services .row .order:first-child{
+        order:2
+    }
 }
 
 @media only screen and (max-width: 575px) {
     .banner-area .banner-field {
-        padding: 20px;
+        padding: 175px 20px 20px;
     }
     .banner-area .banner-content {
         border-radius: 22px;
@@ -222,7 +226,7 @@
         padding: 30px 15px 0px;
     }
     .head-text h2 {
-        font-size: 27px;
+        font-size: 22px;
     }
     .services-area {
         padding: 0 0 30px;
